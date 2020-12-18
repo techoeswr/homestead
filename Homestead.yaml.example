@@ -10,18 +10,20 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/code
+    - map: ../
       to: /home/vagrant/code
 
 sites:
-    - map: homestead.test
-      to: /home/vagrant/code/public
+    - map: lu5api.test
+      to: /home/vagrant/code/lu5api/public
 
 databases:
-    - homestead
-
+    lu5api
+    
 features:
+    - mysql: true
     - mariadb: false
+    - postgresql: false
     - ohmyzsh: false
     - webdriver: false
 
