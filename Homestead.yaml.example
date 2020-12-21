@@ -20,8 +20,8 @@ sites:
       to: /home/vagrant/code/la7/public
 
 databases:
-    lu5api
-    la7
+    - lu5api
+    - la7
     
 features:
     - mysql: true
