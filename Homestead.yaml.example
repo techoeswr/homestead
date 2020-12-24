@@ -18,10 +18,13 @@ sites:
       to: /home/vagrant/code/lu5api/public
     - map: la7.test
       to: /home/vagrant/code/la7/public
+    - map: lu8api.test
+      to: /home/vagrant/code/lu8api/public
 
 databases:
     - lu5api
     - la7
+    - lu8api
     
 features:
     - mysql: true
