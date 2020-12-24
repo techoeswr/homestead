@@ -20,6 +20,7 @@ sites:
       to: /home/vagrant/code/la7/public
     - map: lu8api.test
       to: /home/vagrant/code/lu8api/public
+      php: "7.4"
 
 databases:
     - lu5api
@@ -27,7 +28,8 @@ databases:
     - lu8api
     
 features:
-    - mysql: true
+    - mysql8: true
+    - mongodb: true
     - mariadb: false
     - postgresql: false
     - ohmyzsh: false
